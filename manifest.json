@@ -1,0 +1,27 @@
+{
+	"name": "hundred_percent",
+	"short_name": "100",
+	"start_url": ".",
+	"theme_color": "#fff",
+	"author": "The Lazy Dev Otaku",
+	"display": "standalone",
+	"background_color": "#fff",
+	"description": "A 100 hundred_percent app",
+	"icons": [
+		{
+			"src": "assets/img/logo512.png",
+			"sizes": "512x512",
+			"type": "image/png"
+		},
+		{
+			"src": "assets/img/logo128.png",
+			"sizes": "128x128",
+			"type": "image/png"
+		},
+		{
+			"src": "assets/img/logo64.png",
+			"sizes": "64x64",
+			"type": "image/png"
+		}
+	]
+}
