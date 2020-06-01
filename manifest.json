@@ -28,7 +28,7 @@
             "src": "assets/img/logo64.png",
             "sizes": "64x64",
             "type": "image/png",
-            "purpose": "any maxable"
+            "purpose": "any maskable"
         },
 
         {
