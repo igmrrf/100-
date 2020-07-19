@@ -1,87 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-        <link rel="icon" href="./favicon.ico" />
-        <link rel="apple-touch-icon" href="./assets/img/logo128.png" />
-        <meta name="theme-color" content="#000000" />
-        <meta
-            name="description"
-            content="Official Portfolio Of The Lazy Dev Otaku"
-        />
-        <meta property="og:type" />
-        <meta property="fb:app_id" />
-        <meta property="og:title" content="The Lazy Dev Otaku" />
-        <meta
-            property="og:description"
-            content="Just a little introduction to 100% percent features and PWA compact ability"
-        />
-        <meta property="og:url" content="https://igmrrf.com/" />
-        <meta
-            property="og:image"
-            og:image:width="50px"
-            og:image:height="50px"
-            content="https://pbs.twimg.com/profile_images/1232467174092083202/S2W8RPfm_400x400.jpg"
-        />
-        <link href="manifest.json" rel="manifest" />
+    <link rel="icon" href="./favicon.ico" />
+    <link rel="apple-touch-icon" href="./assets/img/logo128.png" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Official Portfolio Of The Lazy Dev Otaku"
+    />
+    <meta property="og:type" />
+    <meta property="fb:app_id" />
+    <meta property="og:title" content="The Lazy Dev Otaku" />
+    <meta
+      property="og:description"
+      content="Just a little introduction to 100% percent features and PWA compact ability"
+    />
+    <meta property="og:url" content="https://igmrrf.com/" />
+    <meta
+      property="og:image"
+      og:image:width="50px"
+      og:image:height="50px"
+      content="https://pbs.twimg.com/profile_images/1232467174092083202/S2W8RPfm_400x400.jpg"
+    />
+    <link href="manifest.json" rel="manifest" />
 
-        <title>The Lazy Dev Otaku</title>
-    </head>
+    <title>The Lazy Dev Otaku</title>
+    <style>
+      body {
+        background: #253341;
+        color: white;
+      }
+      .skills {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+      }
+    </style>
+  </head>
 
-    <body>
-        <section>
-            <h1>Am TLDO</h1>
+  <body>
+    <section class="main">
+      <div>
+        <p><strong>Name:</strong> Richard Francis (The Lazy Dev Otaku)</p>
+        <p>
+          <strong>Title:</strong> Engineer,
+          <span>
+            send an
+            <a href="mailto:francis.igbiriki.fi@gmail.com"> email</a>
+          </span>
+        </p>
+        <a href="https://github.com/igmrrf" class="github">Github</a>
+        <a href="https://www.twitter.com/igmrrf" class="twitter">Twitter</a>
+        <a href="https://www.linkedin.com/in/igmrrf" class="linkedIn"
+          >LinkedIn</a
+        >
+        <a
+          href="https://googlechrome.github.io/lighthouse/viewer/?psiurl=https%3A%2F%2Figmrrf.com%2F&strategy=mobile&category=performance&category=accessibility&category=best-practices&category=seo&category=pwa&utm_source=lh-chrome-ext"
+          class="click-me"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <button>Click Me</button>
+        </a>
+      </div>
 
-            <a href="https://github.com/igmrrf" class="github">Github</a>
-            <a href="https://www.twitter.com/igmrrf" class="twitter">Twitter</a>
-            <a href="https://www.linkedin.com/in/igmrrf" class="linkedIn"
-                >LinkedIn</a
-            >
-            <a
-                href="https://googlechrome.github.io/lighthouse/viewer/?psiurl=https%3A%2F%2Figmrrf.com%2F&strategy=mobile&category=performance&category=accessibility&category=best-practices&category=seo&category=pwa&utm_source=lh-chrome-ext"
-                class="click-me"
-                target="_blank"
-                rel="noopener noreferrer"
-            >
-                <button>Click Me</button>
-            </a>
-        </section>
-        <section>
-            <p><strong>Name:</strong>The Lazy Dev Otaku</p>
-            <p>
-                <strong>Title:</strong>Software Engineer,
-                <span>
-                    send an
-                    <a href="mailto:francis.igbiriki.fi@gmail.com"> email</a>
-                </span>
-            </p>
-
-            <h2>Skills</h2>
-            <ul>
-                <li>HTML/CSS</li>
-                <li>JavaScript</li>
-                <li>React.js</li>
-                <li>SASS/LESS</li>
-                <li>Express</li>
-                <li>Node.js</li>
-                <li>MongoDb</li>
-                <li>Git</li>
-                <li>Electron</li>
-                <li>Python</li>
-                <li>MySQL</li>
-                <li>Gatsby & Gatsby Cloud</li>
-                <li>Next.js</li>
-                <li>React Native</li>
-                <li>PHP</li>
-                <li>Java</li>
-                <li>C++</li>
-                <li>Dart</li>
-                <li>Flutter</li>
-                <li>Laravel</li>
-            </ul>
-        </section>
-        <script src="./index.js"></script>
-    </body>
+      <h2>Skills</h2>
+      <div class="skills">
+        <div class="frame">
+          <h3>Frameworks, Libraries & ENVs</h3>
+          <ul>
+            <li>Git</li>
+            <li>Vue.js</li>
+            <li>Express</li>
+            <li>Node.js</li>
+            <li>Next.js</li>
+            <li>Flutter</li>
+            <li>Laravel</li>
+            <li>React.js</li>
+            <li>Electron</li>
+            <li>React Native</li>
+            <li>Gatsby & Gatsby Cloud</li>
+          </ul>
+        </div>
+        <div class="lang">
+          <h3>Languages</h3>
+          <ul>
+            <li>PHP</li>
+            <li>C++</li>
+            <li>CSS3</li>
+            <li>Java</li>
+            <li>HTML5</li>
+            <li>Python</li>
+            <li>SASS/LESS</li>
+            <li>JavaScript</li>
+          </ul>
+        </div>
+        <div class="db">
+          <h3>Databases</h3>
+          <ul>
+            <li>MySQL</li>
+            <li>MongoDB</li>
+            <li>PostgreSQL</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <script src="./index.js"></script>
+  </body>
 </html>
