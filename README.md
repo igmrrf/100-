@@ -2,10 +2,13 @@
 
 ## HTML CSS \$ JavaScript
 
-Just saw a simple fast HTML site that had a lighthouse rating of 100 on speed and accessibility. So I decided to make mine to beat all Lighthouse rating to 100%.
+Saw a simple HTML site that had a lighthouse rating of 100% rating on Performance, Accessibility, Best Practice and SEO. :surprisedL:
+
+So, I decided to make mine with addition of passing the PWA rating also.:wink:
 
 Might run to 95% sometimes so don't expect perfection :smile:
-![Lighthouse]('assets/')
+
+![Lighthouse](./assets/img/lighthouse.png)
 
 ON PC
 
