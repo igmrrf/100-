@@ -1,25 +1,26 @@
-const cacheName = "tldo";
+const cacheName = "100-";
 const staticAssets = [
   "./",
   "./index.html",
   "./assets/img/*.*",
+  "./assets/css/*.css",
   "./manifest.json",
   "./index.js",
   "./favicon.ico",
-  "./serviceWorker.js"
+  "./serviceWorker.js",
 ];
 
-self.addEventListener("install", async e => {
+self.addEventListener("install", async (e) => {
   const cache = await caches.open(cacheName);
   await cache.addAll(staticAssets);
   return self.skipWaiting();
 });
 
-self.addEventListener("activate", e => {
+self.addEventListener("activate", (e) => {
   self.clients.claim();
 });
 
-self.addEventListener("fetch", async e => {
+self.addEventListener("fetch", async (e) => {
   const req = e.request;
   const url = new URL(req.url);
 
