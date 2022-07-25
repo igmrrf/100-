@@ -1,40 +1,40 @@
 {
-    "name": "hundred_percent",
-    "short_name": "100",
-    "start_url": ".",
-    "theme_color": "#fff",
-    "author": "The Lazy Dev Otaku",
-    "display": "standalone",
-    "background_color": "#fff",
-    "description": "A 100 hundred_percent Light_House rated app",
-    "icons": [
-        {
-            "src": "assets/img/logo1024.png",
-            "sizes": "1024x1024",
-            "type": "image/png"
-        },
-        {
-            "src": "assets/img/logo512.png",
-            "sizes": "512x512",
-            "type": "image/png"
-        },
-        {
-            "src": "assets/img/logo256.png",
-            "sizes": "256x256",
-            "type": "image/png"
-        },
+  "name": "hundred_percent",
+  "short_name": "100",
+  "start_url": ".",
+  "theme_color": "#fff",
+  "author": "IGMRRF",
+  "display": "standalone",
+  "background_color": "#fff",
+  "description": "A 100 hundred_percent Light_House rated app",
+  "icons": [
+    {
+      "src": "assets/img/logo1024.png",
+      "sizes": "1024x1024",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/img/logo512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/img/logo256.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    },
 
-        {
-            "src": "assets/img/logo64.png",
-            "sizes": "64x64",
-            "type": "image/png",
-            "purpose": "any maskable"
-        },
+    {
+      "src": "assets/img/logo64.png",
+      "sizes": "64x64",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
 
-        {
-            "src": "assets/img/logo16.png",
-            "sizes": "16x16",
-            "type": "image/png"
-        }
-    ]
+    {
+      "src": "assets/img/logo16.png",
+      "sizes": "16x16",
+      "type": "image/png"
+    }
+  ]
 }
