@@ -1,4 +1,4 @@
-# The Lazy Dev Otaku
+# IGMRRF
 
 ## HTML CSS \$ JavaScript
 
